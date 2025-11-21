@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="another.html" method="get">
+        <legend>Registration Form</legend><input type="text" maxlength=""><br>
+        <label for="">First Name:</label><input type="text"><br><br>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" maxlength="10">
+        <label for="">email</label><input type="email" minlength="10"><br><br>
+        <label for="">DOB</label><input type="datetime"><br><br>
+        <label for="">Address:</label><textarea></textarea>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender"  value="male"><label for=""> Male</label>
+        <input type="radio" name="gender"  value="female"><label for=""> Male</label>
+        <input type="radio" name="gender"  value="others"><label for=""> Male</label>
+        <label for="">education qualification:</label>
+        <select name="" id="">
+            <optgroup label="CS">
+                <option value="">BE</option>
+                <option value="">BE</option>
+                <option value="">BE</option>
+                <option value="">BE</option>
+            </optgroup>
+            <optgroup label="Science">
+                <option value="">Msc</option>
+                <option value="">Bsc</option>
+            </optgroup>
+
+
+        </select>
+        <br><br>
+        <input type="submit" name="submit" value="SUBMIT">
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>
