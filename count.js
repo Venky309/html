@@ -1,0 +1,21 @@
+// prime number
+temp=0; 
+for(n=10;n<100;n++)
+{
+count=0;
+for(i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+           count=count+1;
+        }
+    } 
+    if(count>0)
+    {
+    }
+    else
+    {
+        temp=temp+1;
+    }
+}    
+console.log(temp);

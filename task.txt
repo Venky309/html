@@ -1,0 +1,11 @@
+String tasks
+
+1 write a function to count how many times the letter 'a' appears in a String
+2 extract the domain name from an email address
+3 covert the first letter of a sentence to uppercase
+4 reverse a string using string methods
+
+Arrays 
+1 write a js function check if all the data present in array are same or not.
+2 write a js program to count +ve number , -ve number , and 0 using switch statement.
+3 find common element in two Arrays
